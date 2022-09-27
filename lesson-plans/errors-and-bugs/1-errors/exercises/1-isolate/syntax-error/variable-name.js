@@ -7,21 +7,21 @@ console.log('--- in execution phase ---');
 
 
 /*
-  environment:
+  environment:Chrome Browser
 
-  name:
-  message:
+  name:SyntaxError
+  message:Unexpected number
 
-  location:
+  location:Line 25 
 
-  life cycle:
+  life cycle:During creation phase
 
-  the mistake:
+  the mistake:Variable name rules are not followed.
 
-  the fix(es):
+  the fix(es):Change the name of the variable.
 */
 
 
-const 3 = 'three';
+const a3 = 'three';
 
 

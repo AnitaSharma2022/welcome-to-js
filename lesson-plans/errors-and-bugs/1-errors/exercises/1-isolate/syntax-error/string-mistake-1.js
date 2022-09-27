@@ -6,21 +6,20 @@ console.log('--- in execution phase ---');
 
 
 /*
-  environment:
+  environment:Chrome Browser
 
-  name:
-  message:
+  name:SyntaxError
+  message:Invalid or unexpected token
 
-  location:
+  location: line 23 column 10
 
-  life cycle:
+  life cycle:During execution
 
-  the mistake:
+  the mistake:string initialization is not correct.
 
-  the fix(es):
+  the fix(es):initializing string value in quotes.
 */
 
-const a = 'this is
-two lines';
+const a = 'this is two lines';
 
 

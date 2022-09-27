@@ -6,10 +6,10 @@ import {
 } from '../../../../../../../lib/dom-io/index.js';
 
 /*
-  environment:
+  environment:Chrome Browser
 
-  name:
-  message:
+  name:SyntaxError
+  message:Unexpected token '+'
 
   location:
 

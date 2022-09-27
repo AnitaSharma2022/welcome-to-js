@@ -16,7 +16,8 @@ whenFormDataChanges('input', () => {
 
   let pyramid = '';
   for (const brick of bricks) {
-    pyramid = pyramid + '\n' + pyramid + brick;
+   // pyramid = pyramid + '\n' + pyramid + brick;
+    pyramid += pyramid+brick + '\n'  ;
   }
 
   // --- display the pyramid ---
